@@ -1,0 +1,122 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #5c0211;
+  width: 100%;
+  margin: 0;
+}
+h1 {
+  color: #ffffff;
+  font-size: 50px;
+}
+h2 {
+  color: #5c0211;
+  font-size: 28px;
+}
+p {
+  color: #5c0211;
+  font-size: 21px;
+}
+img.logo {
+  margin: 0 auto;
+  display: block;
+}
+img.profile {
+  border: 5px solid #8e0028;
+  max-width: 200px;
+  height: auto;
+  padding: 5px;
+  float: left;
+  margin-right: 20px;
+}
+section.banner {
+  padding-top: 100px;
+  padding-bottom: 175px;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('assets/canadaflag.jpg');
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+}
+section.banner p {
+  font-size: 21px;
+  color: #ffffff;
+}
+section.banner h1 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+section.about {
+  background: #d0dff1;
+  overflow: hidden;
+  height: auto;
+}
+section.about h2 {
+  text-align: center;
+  padding-top: 3%;
+}
+.about ul {
+  list-style-type: none;
+  padding-bottom: 7%;
+}
+.about li {
+  color: #5c0211;
+  font-size: 21px;
+}
+section.services {
+  text-align: center;
+}
+section.services i {
+  color: #8e0028;
+  border: 5px solid #8e0028;
+  border-radius: 10%;
+  max-width: 200px;
+  height: auto;
+  padding: 50px;
+  margin: 10px;
+}
+img.services {
+  border: 1px solid #8e0028;
+  border-radius: 50%;
+  max-width: 200px;
+  height: auto;
+  padding: 50px;
+  margin: 10px;
+}
+section.contact {
+  text-align: center;
+  background: #8e0028;
+}
+section.contact i {
+  margin: 2px;
+}
+section.contact h2 {
+  color: #ffffff;
+}
+section.box {
+  padding: 20px 100px;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border-bottom: 0px solid #434A5C;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.menu li {
+  display: inline-block;
+  padding: 20px 35px;
+}
+.menu a {
+  text-decoration: none;
+  color: #8e0028;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.fa {
+  color: #ffffff;
+  text-decoration: none;
+}
